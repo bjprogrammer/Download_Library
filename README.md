@@ -2,8 +2,12 @@
 Library for uploading files and images
 
 Example- 
+
+
 RepoDelegate delegate = RepoDelegate.getInstance();
-      File file = new ImageFile(url, new DownloadCallback() {
+    
+     
+     File file = new ImageFile(url, new DownloadCallback() {
 			@Override
 			public void onStart(File file) {
 
